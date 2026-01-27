@@ -14,6 +14,22 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-32 text-center">
         <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          className="mb-8"
+        >
+          <div className="relative inline-block">
+            <div className="absolute inset-0 bg-gradient-to-r from-primary to-glow-secondary rounded-2xl blur-2xl opacity-40" />
+            <img
+              src="/profile.jpeg"
+              alt="Jyoti Prakash"
+              className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl object-cover border-2 border-primary/20 shadow-2xl"
+            />
+          </div>
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
