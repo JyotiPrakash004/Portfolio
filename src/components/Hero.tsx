@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import profileJpg from '../../public/profile.jpg';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -22,7 +23,7 @@ const Hero = () => {
           <div className="relative inline-block">
             <div className="absolute inset-0 bg-gradient-to-r from-primary to-glow-secondary rounded-2xl blur-2xl opacity-40" />
             <img
-              src="/profile.jpeg"
+              src={profileJpg}
               alt="Jyoti Prakash"
               className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl object-cover border-2 border-primary/20 shadow-2xl"
             />
