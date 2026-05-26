@@ -4,9 +4,9 @@ import { ExternalLink, Github, Rocket, Trophy } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Emotion Detection using Face Recognition',
-    tech: ['Python', 'Flask', 'TensorFlow', 'OpenCV', 'Scikit-learn'],
-    description: 'A computer vision system that detects and classifies human emotions from facial expressions in real time.',
+    title: 'CLIXOR – Natural Language to Blender Automation',
+    tech: ['Python', 'Blender API', 'NLP', 'Web Interface'],
+    description: 'Developed a system that converts natural language instructions into executable Python scripts for Blender. Integrated reference image input to enable context-aware and accurate 3D scene generation.',
     highlight: null,
   },
   {
@@ -18,7 +18,13 @@ const projects = [
   {
     title: 'Bone Fracture Detection',
     tech: ['Python', 'OpenCV', 'TensorFlow', 'Scikit-learn'],
-    description: 'An AI-powered medical imaging project that detects bone fractures from X-ray images.',
+    description: 'An AI-powered medical imaging project that detects bone fractures from X-ray images with high accuracy.',
+    highlight: null,
+  },
+  {
+    title: 'Dating Application',
+    tech: ['Flutter', 'Firebase', 'Supabase', 'Django', 'REST API', 'AI Matching'],
+    description: 'A modern Flutter-based dating platform featuring real-time chat, AI-powered matching, authentication, onboarding flows, profile customization, and interactive social features designed for seamless user engagement.',
     highlight: null,
   },
   {
