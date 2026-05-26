@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import { Download } from 'lucide-react';
 
 const navLinks = [
   { label: 'About', href: '#about' },
@@ -84,16 +85,14 @@ const Navbar = () => {
         </div>
 
         <motion.a
-          href="#contact"
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection('#contact');
-          }}
+          href="/resume.pdf"
+          download
           className="btn-primary text-sm"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Let's Talk
+          <Download className="w-4 h-4" />
+          Resume
         </motion.a>
       </div>
     </motion.nav>

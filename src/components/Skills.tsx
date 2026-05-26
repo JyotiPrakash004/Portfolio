@@ -37,8 +37,8 @@ const skillGroups = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-32 relative">
-      <div className="max-w-6xl mx-auto px-6">
+    <section id="skills" className="py-16 md:py-32 relative">
+      <div className="max-w-6xl mx-auto px-4 md:px-6">
         <DisintegrateOnScroll>
           <div className="text-center mb-16">
             <motion.span 

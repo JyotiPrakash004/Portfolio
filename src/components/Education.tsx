@@ -4,11 +4,11 @@ import { GraduationCap, Calendar, MapPin } from 'lucide-react';
 
 const Education = () => {
   return (
-    <section id="education" className="py-32 relative">
+    <section id="education" className="py-16 md:py-32 relative">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-glow-secondary/5 to-transparent pointer-events-none" />
 
-      <div className="max-w-4xl mx-auto px-6 relative z-10">
+      <div className="max-w-4xl mx-auto px-4 md:px-6 relative z-10">
         <DisintegrateOnScroll>
           <div className="text-center mb-16">
             <motion.span 
